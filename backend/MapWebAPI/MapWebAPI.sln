@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34601.278
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MapWebAPI", "MapWebAPI\MapWebAPI.csproj", "{6A26ECC8-E938-427A-9224-038D9F965591}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MapWebAPI", "MapWebAPI\MapWebAPI.csproj", "{4A1D47B7-497D-436C-88C0-E1654B8F20CF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +11,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{6A26ECC8-E938-427A-9224-038D9F965591}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{6A26ECC8-E938-427A-9224-038D9F965591}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{6A26ECC8-E938-427A-9224-038D9F965591}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{6A26ECC8-E938-427A-9224-038D9F965591}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A1D47B7-497D-436C-88C0-E1654B8F20CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A1D47B7-497D-436C-88C0-E1654B8F20CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A1D47B7-497D-436C-88C0-E1654B8F20CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A1D47B7-497D-436C-88C0-E1654B8F20CF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

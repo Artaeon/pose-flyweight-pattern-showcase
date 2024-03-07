@@ -1,0 +1,34 @@
+erDiagram
+    LocationTypes {
+        int LocationTypeId PK "Primary Key"
+        varchar TypeName "Name of the Location Type"
+        varchar IconPath "Path to Icon"
+        varchar Description "Description of the Location Type"
+    }
+
+    Locations {
+        int LocationId PK "Primary Key"
+        varchar Name "Name of the Location"
+        decimal Latitude "Geographic Latitude"
+        decimal Longitude "Geographic Longitude"
+        int LocationTypeId FK "Foreign Key to LocationTypes"
+    }
+
+    Attributes {
+        int AttributeId PK "Primary Key"
+        int LocationTypeId FK "Foreign Key to LocationTypes"
+        varchar Key "Attribute Key"
+        varchar Value "Attribute Value"
+    }
+
+    Reviews {
+        int ReviewId PK "Primary Key"
+        int LocationId FK "Foreign Key to Locations"
+        int UserId "User ID"
+        int Rating "Rating"
+        text Comment "Comment"
+    }
+
+    LocationTypes ||--o{ Locations : "has"
+    LocationTypes ||--o{ Attributes : "defines"
+    Locations ||--o{ Reviews : "receives"
