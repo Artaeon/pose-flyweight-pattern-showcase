@@ -22,13 +22,13 @@
             {                
                 var locationTypes = new LocationType[]
                 {
-                new LocationType { LocationTypeId = 1, TypeName = "Café", IconPath = "/icons/cafe.png" },
-                new LocationType { LocationTypeId = 2, TypeName = "Bibliothek", IconPath = "/icons/library.png" },
-                new LocationType { LocationTypeId = 3, TypeName = "Grocery Store", IconPath = "/icons/grocery.png" },
-                new LocationType { LocationTypeId = 4, TypeName = "Park", IconPath = "/icons/park.png" },
-                new LocationType { LocationTypeId = 5, TypeName = "Museum", IconPath = "/icons/museum.png" },
-                new LocationType { LocationTypeId = 6, TypeName = "Hospital", IconPath = "/icons/hospital.png" },
-                new LocationType { LocationTypeId = 7, TypeName = "Bookstore", IconPath = "/icons/bookstore.png" }
+                new LocationType { LocationTypeId = 1, TypeName = "Café", IconPath = "http://maps.gstatic.com/mapfiles/ms2/micons/coffeehouse.png" },
+                new LocationType { LocationTypeId = 2, TypeName = "Bibliothek", IconPath = "http://maps.gstatic.com/mapfiles/ms2/micons/red-pushpin.png" },
+                new LocationType { LocationTypeId = 3, TypeName = "Grocery Store", IconPath = "http://maps.gstatic.com/mapfiles/ms2/micons/grocerystore.png" },
+                new LocationType { LocationTypeId = 4, TypeName = "Park", IconPath = "http://maps.gstatic.com/mapfiles/ms2/micons/picnic.png" },
+                new LocationType { LocationTypeId = 5, TypeName = "Museum", IconPath = "http://maps.gstatic.com/mapfiles/ms2/micons/homegardenbusiness.png" },
+                new LocationType { LocationTypeId = 6, TypeName = "Hospital", IconPath = "http://maps.gstatic.com/mapfiles/ms2/micons/helicopter.png" },
+                new LocationType { LocationTypeId = 7, TypeName = "Bookstore", IconPath = "http://maps.gstatic.com/mapfiles/ms2/micons/purple-pushpin.png" }
                 };
 
                 context.LocationTypes.AddRange(locationTypes);
