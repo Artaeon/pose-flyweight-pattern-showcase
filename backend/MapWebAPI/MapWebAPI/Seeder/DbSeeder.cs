@@ -45,7 +45,12 @@
                 new Location { LocationId = 4, Name = "Park", Latitude = 52.517036M, Longitude = 13.388860M, LocationTypeId = 4 },
                 new Location { LocationId = 5, Name = "Museum", Latitude = 52.520645M, Longitude = 13.387412M, LocationTypeId = 5 },
                 new Location { LocationId = 6, Name = "Hospital", Latitude = 52.523292M, Longitude = 13.394440M, LocationTypeId = 6 },
-                new Location { LocationId = 7, Name = "Bookstore", Latitude = 52.521384M, Longitude = 13.409605M, LocationTypeId = 7 }
+                new Location { LocationId = 7, Name = "Bookstore", Latitude = 52.521384M, Longitude = 13.409605M, LocationTypeId = 7 },
+                new Location { LocationId = 9, Name = "Stumpfl Café", Latitude = 52.520108M, Longitude = 13.404954M, LocationTypeId = 1 },
+                new Location { LocationId = 8, Name = "Gütnher Ehrentraut Café", Latitude = 52.520208M, Longitude = 13.404964M, LocationTypeId = 1 },
+                new Location { LocationId = 10, Name = "Kaffeehaus", Latitude = 52.520208M, Longitude = 13.404924M, LocationTypeId = 1 },
+                new Location { LocationId = 11, Name = "Café am Neuen See", Latitude = 52.520801M, Longitude = 13.402984M, LocationTypeId = 1 },
+                new Location { LocationId = 12, Name = "Café Einstein", Latitude = 52.525503M, Longitude = 13.404994M, LocationTypeId = 1 },
                 };
 
                 context.Locations.AddRange(locations);
