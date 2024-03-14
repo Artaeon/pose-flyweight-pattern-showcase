@@ -12,6 +12,9 @@ target/
 *.iml
 *.ipr
 
+### API KEY ###
+config.ini
+
 ### Eclipse ###
 .apt_generated
 .classpath

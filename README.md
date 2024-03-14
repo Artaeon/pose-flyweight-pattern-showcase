@@ -19,14 +19,17 @@ Dieses Projekt demonstriert die Verwendung des Flyweight-Musters in einer intera
 1. Klone das Repository auf deinen lokalen Rechner.
 2. Navigiere zum Backend-Verzeichnis des Projekts.
 3. Führe `dotnet restore` aus, um alle notwendigen NuGet-Pakete zu installieren.
-4. Starte das Backend mit `dotnet run`.
+4. Starte das Backend mit `dotnet run`. (http)
 
 ### Frontend (Java)
 
 1. Navigiere zum Frontend-Verzeichnis des Projekts.
 2. Öffne das Projekt in deiner bevorzugten IDE, die Java unterstützt.
 3. Stelle sicher, dass alle benötigten Abhängigkeiten richtig aufgelöst und geladen werden.
-4. Starte die Anwendung über die IDE.
+4. trage die korrekte Adresse des Servers unter \resources\META-INF\microprofile-config.properties ein
+5. eigenen Google API Key in die config.ini Datei einfügen 
+6. eine running configuration festlegen, als noch nicht festgelegt (clean:clean package wildfly:dev)
+7. Starte die Anwendung über die IDE.
 
 ## Verwendung
 

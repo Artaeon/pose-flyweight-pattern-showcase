@@ -1,6 +1,7 @@
 package at.ac.htlperg.mapwebui.beans;
 
 import at.ac.htlperg.mapwebui.helper.ConfigReader;
+import at.ac.htlperg.mapwebui.helper.GoogleMapsInitializer;
 import com.company.model.Review;
 import jakarta.annotation.PostConstruct;
 import jakarta.inject.Inject;
