@@ -12,7 +12,7 @@
 </h:head>
 <h:body>
     <script src="https://maps.google.com/maps/api/js?key=#{mapBean.apiKey}&amp;sensor=false" type="text/javascript"></script>
-    <script type="javascript">
+    <script type="text/javascript">
         var currentMarker = null;
 
         function handlePointClick(event) {
@@ -47,14 +47,16 @@
             return false;
         }
     </script>
-
-    <h:form id="mapForm">
-        <p:gmap type="HYBRID" center="52.523292, 13.39444" zoom="10" style="width:100%;height:1000px" model="#{mapBean.mapModel}" />
-    </h:form>
+    <p:growl id="messages" showDetail="true"/>
+    <div class="card">
+        <h:form id="mapForm">
+            <p:gmap type="HYBRID" center="52.523292, 13.39444" zoom="10" style="width:100%;height:800px" model="#{mapBean.mapModel}"
+                    onPointClick="handlePointClick(event)" widgetVar="map"/>
+        </h:form>
+    </div>
     <p:dialog widgetVar="dlg" showEffect="fade">
         <h:form prependId="false">
             <h:panelGrid columns="2">
-                <h:outputLabel for="title" value="Title:"/>
                 <p:inputText id="title" value="#{mapBean.title}"/>
 
                 <h:panelGrid columns="2" cellpadding="5">
